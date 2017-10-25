@@ -1,0 +1,26 @@
+<html>
+<link rel="stylesheet" href="style.css">
+<body>
+<h1>Bubble Challenge</h1>
+
+<button onclick="showDescription()" >short description</button>
+<p></p>
+<pre id="description" style="display:none">
+Visualize a classic search or sort algorithm of your choice (e.g. bubble sort)
+
+Time effort: ~30 min algorithm , ~90 min visualization
+</pre>
+
+<p><button onclick="randomBubbles()">generate random bubbles</button><button onclick="lightningButton(bubbles)">lightning sort</button>
+<button onclick="animatedButton(bubbles)">animated sort</button></p>
+<p style="display:none;">sorting algorithm: <button>bubblesort</button><button>js-sort</button></p>
+
+<svg id="aquarium" width="320px" height="320px"></svg>
+
+<div id="inNumbers" style="margin:12px;"></div>
+
+<script src="bubblechallenge.js"></script>
+</body>
+</html>
+
+
